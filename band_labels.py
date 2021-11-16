@@ -1,0 +1,38 @@
+L30_BANDS = {
+  'coastal_aerosol': 'B01',
+  'blue': 'B02',
+  'green': 'B03',
+  'red': 'B04',
+  'nir': 'B05',
+  'swir1': 'B06',
+  'swir2': 'B07',
+  'cirrus': 'B09',
+  'tirs1': 'B10',
+  'tirs2': 'B11',
+  'quality_bits': 'Fmask',
+  'sun_zenith_angle': 'SZA',
+  'sun_azimuth_angle': 'SAA',
+  'view_zenith_angle': 'VZA',
+  'view_azimuth_angle': 'VAA'
+}
+
+S30_BANDS = {
+  'coastal_aerosol': 'B01',
+  'blue': 'B02',
+  'green': 'B03',
+  'red': 'B04',
+  'red_edge1': 'B05',
+  'red_edge2': 'B06',
+  'red_edge3': 'B07',
+  'nir_broad': 'B08',
+  'nir': 'B8A',
+  'water_vapor': 'B09',
+  'cirrus': 'B10',
+  'swir1': 'B11',
+  'swir2': 'B12',
+  'quality_bits': 'Fmask',
+  'sun_zenith_angle': 'SZA',
+  'sun_azimuth_angle': 'SAA',
+  'view_zenith_angle': 'VZA',
+  'view_azimuth_angle': 'VAA',
+}
