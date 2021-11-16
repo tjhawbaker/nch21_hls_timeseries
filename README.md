@@ -16,3 +16,8 @@ Hawbaker, T.J, M.K. Vanderhoof, G.L. Schmidt, Y. Beal, J.J. Picotte, J.D. Takacs
 5. Applying a moving window to the time series of spectral indices (e.g., mean NDVI over the past 30 days)
 6. Calculate difference between spectral indices for each scene and the moving window time series
 7. Apply a classifier to the spectral index differences, save the results
+
+## Performance tests
+1. File read speed from EC2 disk vs. S3 bucket
+2. Spectral index calculation vs. n processors
+3. Temporal aggregation vs. n processors
