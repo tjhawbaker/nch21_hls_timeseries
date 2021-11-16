@@ -8,11 +8,11 @@ A cloud-deployable framework to identify burned areas in the harmonized Landsat 
 Hawbaker, T.J, M.K. Vanderhoof, G.L. Schmidt, Y. Beal, J.J. Picotte, J.D. Takacs, J.T. Falgout, and J.L. Dwyer. 2020. The Landsat Burned Area algorithm and products for the conterminous United States. Remote Sensing of Environment, 244, 111801, https://doi.org/10.1016/j.rse.2020.111801
 
 ## Tasks
-Task 1: Build standardize tools to query and acquire links to HLS data from the EarthData library.  See https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/02_Data_Discovery_CMR-STAC_API.html for examples.
-Task 2: Create a rioxarray Dataset consisting of DataArrays for bands shared by Sentinel and Landsat, with date and time information.  See https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/05_Data_Access_Direct_S3.html
+1. Build standardize tools to query and acquire links to HLS data from the EarthData library.  See https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/02_Data_Discovery_CMR-STAC_API.html for examples.
+2. Create a rioxarray Dataset consisting of DataArrays for bands shared by Sentinel and Landsat, with date and time information.  See https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/05_Data_Access_Direct_S3.html
   Shared bands include: Fmask, 
-Task 3: Generate cloud-free masks from the Fmask bands and replace masked areas in the Dataset with Null values
-Task 4: Use band math to add spectral indices to the Dataset
-Task 5: Applying a moving window to the time series of spectral indices (e.g., mean NDVI over the past 30 days)
-Task 6: Calculate difference between spectral indices for each scene and the moving window time series
-Task 7: Apply a classifier to the spectral index differences, save the results
+3. Generate cloud-free masks from the Fmask bands and replace masked areas in the Dataset with Null values
+4. Use band math to add spectral indices to the Dataset
+5. Applying a moving window to the time series of spectral indices (e.g., mean NDVI over the past 30 days)
+6. Calculate difference between spectral indices for each scene and the moving window time series
+7. Apply a classifier to the spectral index differences, save the results
