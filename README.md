@@ -9,6 +9,7 @@ Hawbaker, T.J, M.K. Vanderhoof, G.L. Schmidt, Y. Beal, J.J. Picotte, J.D. Takacs
 
 ## HLS data description
 https://lpdaac.usgs.gov/news/release-of-harmonized-landsat-and-sentinel-2-hls-version-20/
+https://lpdaac.usgs.gov/documents/1118/HLS_User_Guide_V2.pdf
 
 ## Tasks
 1. Build standardize tools to query and acquire links to HLS data from the EarthData library.  See https://nasa-openscapes.github.io/2021-Cloud-Hackathon/tutorials/02_Data_Discovery_CMR-STAC_API.html for examples.  Code developed is in query_and_acquire_HLS_data.ipynb  Download time for 2021 HLS data for tile 13TDE is 331 s.
